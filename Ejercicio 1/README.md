@@ -12,3 +12,14 @@ docker run --name web -p 8000:8000 -d  php:7.4-apache
 docker ps
 ```
 
+![Captura contenedor](Imagenes/01.png)
+
+#### 3.- Copiamos el contenido web a /var/www/html
+
+```
+docker cp web/. web:/var/www/html
+```
+
+#### 4.- Comprobamos que se ha subido el contenido a la máquina
+
+![Captura contenedor](Imagenes/02.png)

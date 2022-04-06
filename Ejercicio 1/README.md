@@ -45,3 +45,16 @@ mariadb
 #### 2.- Comprobamos que se ha creado correctamente.
 
 ![Captura despliegue mariadb](Imagenes/db02.png)
+
+## Extras
+#### 1.- La bbdd no se puede borrar mientras esta en funcionamiento.
+
+![Captura despliegue mariadb](Imagenes/extra01.png)
+
+#### 2.- Imagenes actuales descargadas.
+
+![Captura despliegue mariadb](Imagenes/extra02.png)
+
+#### 3.- Borrado de contenedores.
+
+![Captura despliegue mariadb](Imagenes/extra03.png)

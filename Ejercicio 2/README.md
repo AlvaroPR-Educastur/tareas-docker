@@ -9,5 +9,13 @@ docker run --name c2 -p 8282:80 --mount type=bind,source=/c/Users/alvar/Document
 
 #### 2.- Comprobamos que se resuelven a traves del navegador.
 
-![Captura contenedor](Imagenes/mount02.png)
+![Captura navegador](Imagenes/mount02.png)
+
+#### 3.- Modifico el index.html.
+
+![Captura index.html](Imagenes/mount03.png)
+
+#### 4.- Refresco los navegadores.
+
+![Captura index.html](Imagenes/mount04.png)
 

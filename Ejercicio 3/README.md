@@ -19,9 +19,14 @@ mariadb
 ```
 ![Captura arranque contenedor db](Imagenes/red02.png)
 
-#### 2.- Creamos el contenedor adminer para conectar a la bbdd.
+#### 3.- Creamos el contenedor adminer para conectar a la bbdd.
 
 ```
 docker run -p 8080:8080 --network redbd -d --name web adminer
 ```
 ![Captura arranque contenedor adminer](Imagenes/red03.png)
+
+#### 4.- Nos conectamos a la bbdd via web.
+
+![Captura conexion adminer](Imagenes/red04.png)
+

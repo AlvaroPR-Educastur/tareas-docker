@@ -19,3 +19,11 @@ docker run --name c2 -p 8282:80 --mount type=bind,source=/c/Users/alvar/Document
 
 ![Captura index.html](Imagenes/mount04.png)
 
+#### 5.- Borramos los contenedores.
+
+```
+docker stop c1 && docker stop c2 && docker rm c1 && docker rm c2
+```
+
+![Captura index.html](Imagenes/mount05.png)
+

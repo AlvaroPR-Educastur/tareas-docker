@@ -30,3 +30,20 @@ docker run -p 8080:8080 --network redbd -d --name web adminer
 
 ![Captura conexion adminer](Imagenes/red04.png)
 
+### Extra
+#### Creamos una bbdd via web.
+
+![Captura creacion db 1](Imagenes/red05.png)
+![Captura creacion db 2](Imagenes/red06.png)
+
+#### Consulta en modo texto a la bbdd desde la web.
+
+![Captura consulta](Imagenes/red07.png)
+
+#### Comprobacion de los recursos corriendo.
+
+![Captura comprobacion](Imagenes/red08.png)
+
+#### Eliminacion de todos los recursos
+
+![Captura comprobacion](Imagenes/red09.png)

@@ -42,8 +42,23 @@ docker run -p 8080:8080 --network redbd -d --name web adminer
 
 #### Comprobacion de los recursos corriendo.
 
+```
+docker ps
+docker volume ls
+docker network ls
+```
+
 ![Captura comprobacion](Imagenes/red08.png)
 
 #### Eliminacion de todos los recursos
+
+```
+docker stop bbdd
+docker stop web
+docker rm web
+docker rm bbdd
+docker network prune
+docker volume prune
+```
 
 ![Captura comprobacion](Imagenes/red09.png)
